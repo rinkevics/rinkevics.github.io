@@ -376,9 +376,18 @@ h1 {
 	float: left;
 }
 
+.ds_block_values_text {
+	text-align: center;
+}
+
 @media only screen and (max-width: 40em) {
 	.ds_block_values {
 		width: 100%;
+	}
+
+	.ds_block_values img {
+		width: 10em;
+		height: 10em;
 	}
 }
 
@@ -386,10 +395,11 @@ h1 {
 	.ds_block_values {
 		width: 20em;
 	}
-}
 
-.ds_block_values p {
-	text-align: center;
+	.ds_block_values img {
+		width: 10em;
+		height: 10em;
+	}
 }
 
 /* bottom */
