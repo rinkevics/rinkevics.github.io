@@ -163,9 +163,19 @@ h1 {
 }
 
 /* main page top */
-#ds_main_page_image {
-	width: 75em;
-	height: 20em;
+@media only screen and (max-width: 40em) {
+	#ds_main_page_image {
+		object-fit: fill;
+		width: 100%;
+		margin: 0 0 0.5em 0;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	#ds_main_page_image {
+		width: 75em;
+		height: 20em;
+	}
 }
 
 #ds_main_page_text {
@@ -189,6 +199,7 @@ h1 {
 
 
 /* section heading */
+
 .ds_section_heading {
 	width: 100%;
 	float: left;
@@ -207,33 +218,39 @@ h1 {
 	float: left;
 }
 
-/* blocks */
+/* main */
+
 #ds_main_page_block {
 	float: left;
 	position: relative;
 }
 
+
+/* big block */
+
 .ds_section_big_block {
 	float: left;
-	margin-right: 3em;
 	position: relative;
 }
 
 @media only screen and (max-width: 40em) {
 	.ds_section_big_block {
 		width: 100%;
+		margin: 0 0 2em 0;
 	}
 }
 
 @media only screen and (min-width: 40em) {
 	.ds_section_big_block {
 		width: 38em;
+		margin-right: 3em;
 	}
 }
 
 @media only screen and (max-width: 40em) {
 	.ds_section_big_block img {
 		width: 100%;
+		margin: 0 0 0.5em 0;
 	}
 }
 
@@ -244,38 +261,36 @@ h1 {
 	}
 }
 
-@media only screen and (max-width: 40em) {
-	.ds_section_big_block div {
-		margin: 1em 0;
-	}
-}
-
 @media only screen and (min-width: 40em) {
-	.ds_section_big_block div {
+	.ds_big_project_item_text {
 		position: absolute;
 		bottom: 1em;
 		left: 1em;
 		background: white;
 		padding: 1em;
+		width: 20em;
 	}
 }
 
-/* project item */
+
+/* project */
 
 .ds_project_item {
 	float: left;
-	margin: 0 0 1em 0;
+	
 }
 
 @media only screen and (max-width: 40em) {
 	.ds_project_item {
 		width: 100%;
+		margin: 0 0 2em 0;
 	}
 }
 
 @media only screen and (min-width: 40em) {
 	.ds_project_item {
 		width: 20em;
+		margin: 0 0 1em 0;
 	}
 }
 
@@ -287,6 +302,7 @@ h1 {
 	.ds_project_item img {
 		object-fit: fill;
 		width: 100%;
+		margin: 0 0 0.5em 0;
 	}
 }
 
@@ -315,6 +331,7 @@ h1 {
 }
 
 /* blog item */
+
 .ds_blog_item {
 	float: left;
 	margin: 0 0 1em 0;
@@ -364,8 +381,6 @@ h1 {
 	}
 }
 
-
-
 .ds_block_centered {
 	width: max-content;
     margin: auto;
@@ -383,6 +398,7 @@ h1 {
 @media only screen and (max-width: 40em) {
 	.ds_block_values {
 		width: 100%;
+		margin: 0 0 1em 0;
 	}
 
 	.ds_block_values img {
@@ -404,13 +420,25 @@ h1 {
 
 /* bottom */
 #ds_bottom {
-	width: 65em;
 	background-color: gray;
 	padding: 2em 5em;
 	
 	content: "";
 	clear: both;
 	display: table;
+}
+
+@media only screen and (max-width: 40em) {
+	#ds_bottom {
+		box-sizing: border-box;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	#ds_bottom_about_us {
+		width: 65em;
+	}
 }
 
 #ds_bottom_about_us {
@@ -436,6 +464,7 @@ h1 {
 @media only screen and (max-width: 40em) {
 	#ds_bottom_sign_up {
 		width: 100%;
+		margin-bottom: 1em;
 	}
 }
 
@@ -452,6 +481,7 @@ h1 {
 @media only screen and (max-width: 40em) {
 	#ds_bottom_school_of_data {
 		width: 100%;
+		margin-bottom: 1em;
 	}
 }
 
@@ -462,13 +492,13 @@ h1 {
 }
 
 #ds_bottom_social {
-	width: 15em;
 	float: left;
 }
 
 @media only screen and (max-width: 40em) {
 	#ds_bottom_social {
 		width: 100%;
+		margin-bottom: 1em;
 	}
 }
 
