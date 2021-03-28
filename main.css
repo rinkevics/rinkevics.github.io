@@ -243,20 +243,23 @@ h1 {
 @media only screen and (min-width: 40em) {
 	.ds_section_big_block {
 		width: 38em;
+		height: 20em;
 		margin-right: 3em;
 	}
 }
 
+.ds_section_big_block img {
+	width: 100%;
+}
+
 @media only screen and (max-width: 40em) {
 	.ds_section_big_block img {
-		width: 100%;
 		margin: 0 0 0.5em 0;
 	}
 }
 
 @media only screen and (min-width: 40em) {
 	.ds_section_big_block img {
-		width: 36em;
 		height: 20em;
 	}
 }
@@ -264,12 +267,22 @@ h1 {
 @media only screen and (min-width: 40em) {
 	.ds_big_project_item_text {
 		position: absolute;
-		bottom: 1em;
-		left: 1em;
-		background: white;
+		bottom: 0;
+		left: 0;
+		background: lightgray;
 		padding: 1em;
-		width: 20em;
+		width: 100%;
+		box-sizing: border-box;
 	}
+}
+
+.ds_project_big_item_tag {
+	background-color: gray;
+	color: white;
+	padding: 0.1em 0.5em;
+	width: max-content;
+	margin-bottom: 0.5em;
+	font-size: 0.8em;
 }
 
 
@@ -277,7 +290,7 @@ h1 {
 
 .ds_project_item {
 	float: left;
-	
+	position: relative;
 }
 
 @media only screen and (max-width: 40em) {
@@ -329,6 +342,29 @@ h1 {
 		margin: 0 0 0 1em;
 	}
 }
+
+.ds_project_item_tag {
+	background-color: gray;
+	color: white;
+	padding: 0.1em 0.5em;
+	width: max-content;
+	font-size: 0.8em;
+}
+
+@media only screen and (max-width: 40em) {
+	.ds_project_item_tag {
+		margin-bottom: 0.5em;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.ds_project_item_tag {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
 
 /* blog item */
 
@@ -426,19 +462,9 @@ h1 {
 	content: "";
 	clear: both;
 	display: table;
-}
-
-@media only screen and (max-width: 40em) {
-	#ds_bottom {
-		box-sizing: border-box;
-		width: 100%;
-	}
-}
-
-@media only screen and (min-width: 40em) {
-	#ds_bottom_about_us {
-		width: 65em;
-	}
+	
+	box-sizing: border-box;
+	width: 100%;
 }
 
 #ds_bottom_about_us {
