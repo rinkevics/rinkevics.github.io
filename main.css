@@ -711,15 +711,6 @@ body {
 	float: right;
 }
 
-.ds_about_us_person_name {
-	/*float: left;	*/
-}
-
-.ds_about_us_person_description {
-	/*float: left;
-	clear: left;*/
-}
-
 .ds_about_us_person_image {
 	width: 6em;
     height: 8em;
