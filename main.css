@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 	font-family: Calibri;
+	background: lightgray;
 }
 
 .ds_hidden {
@@ -87,6 +88,12 @@ body {
 	display: table;
 }
 
+@media only screen and (max-width: 40em) {
+	.ds_section {
+		width: 100%;
+	}
+}
+
 @media only screen and (min-width: 40em) {
 	.ds_section {
 		width: 75em;
@@ -94,9 +101,10 @@ body {
 }
 
 .ds_section_padded {
-	content: "";
+	/* content: "";
 	clear: both;
-	display: table;
+	display: table; */
+	overflow: hidden;
 }
 
 @media only screen and (max-width: 40em) {
@@ -199,7 +207,7 @@ body {
 .ds_section_heading {
 	width: 100%;
 	float: left;
-	margin-bottom: 2em;
+	margin-bottom: 1m;
 	
 	content: "";
 	clear: both;
@@ -531,7 +539,20 @@ body {
 }
 
 
+@media only screen and (max-width: 40em) {
+	.ds_section_header {
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.ds_section_header {
+		margin: 1em 7em 0 7em;
+	}
+}
+
 /* contacts */
+
 #ds_contacts_facebook {
     width: 22em;
     float: left;
@@ -580,4 +601,228 @@ body {
     background-color: white;
     padding: 3em;
     margin-bottom: 3em;
+}
+
+
+/* about us */
+
+#ds_about_us_block {
+	float: left;
+	position: relative;
+}
+
+@media only screen and (min-width: 40em) {
+	#ds_about_us_block {
+		height: 27em;
+	}
+}
+
+#ds_about_us_image {
+	width: 75em;
+	height: 20em;
+}
+
+@media only screen and (max-width: 40em) {
+	#ds_about_us_image {
+		display: none; 
+	}
+}
+
+#ds_about_us_text {
+	background-color: white;
+}
+
+@media only screen and (max-width: 40em) {
+	#ds_about_us_text {
+		margin: 1em;
+		padding: 1em;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	#ds_about_us_text {
+		position: absolute;
+		bottom: 2em;
+		left: 2em;
+
+		padding: 2em;
+		width: 60%;
+	}
+}
+
+.ds_about_us_section_people {
+	padding: 1em;
+	background-color: white;
+}
+
+@media only screen and (max-width: 40em) {
+	.ds_about_us_section_people {
+		padding: 1em 1em 0 1em;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.ds_about_us_section_people {
+		padding: 1em 7em 0 7em;
+	}
+}
+
+.ds_about_us_header {
+	text-align: center;
+}
+
+.ds_adout_us_team {
+	text-align: center;
+	margin: 2em;
+}
+
+.ds_about_us_people {
+	overflow: hidden;
+}
+
+
+.ds_about_us_person {
+	background-color: lightgray;
+	padding: 1.5em;
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 40em) {
+	.ds_about_us_person {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0 0 1em 0;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.ds_about_us_person {
+		width: 23em;
+		height: 25em;
+		margin: 0 2em 3em 2em;
+	}
+}
+
+.ds_float_left {
+	float: left;
+}
+
+.ds_float_right {
+	float: right;
+}
+
+.ds_about_us_person_name {
+	float: left;	
+}
+
+.ds_about_us_person_description {
+	float: left;
+	clear: left;
+}
+
+.ds_about_us_person_image {
+	width: 6em;
+    height: 8em;
+	float: right;
+}
+
+.ds_about_us_person_text {
+	margin: 1em 0;
+	float: left;	
+}
+
+.ds_about_us_person_email {
+	float: left;	
+}
+
+.ds_about_us_together {
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 40em) {
+	.ds_about_us_together {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.ds_about_us_together {
+		width: 26em;
+		margin: 0 2em 3em 2em;
+	}
+}
+
+.ds_about_us_together_image {
+	object-fit: fill;
+	width: 100%;
+}
+
+#ds_about_us_allies {
+	overflow: hidden;
+	margin: 0 auto 2em auto;
+}
+
+@media only screen and (max-width: 40em) {
+	#ds_about_us_allies {
+		width: 24em;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	#ds_about_us_allies {
+		width: 48em;
+	}
+}
+
+.ds_about_us_ally {
+	width: 10em;
+	height: 5em;
+	margin: 0 1em 1em 1em;
+	float: left;
+}
+
+/* join us */
+
+.ds_section_join_us_left {
+	float: left;
+}
+
+@media only screen and (max-width: 40em) {
+	.ds_section_join_us_left {
+		margin-bottom: 1em;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.ds_section_join_us_left {
+		width: 70%;
+	}
+}
+
+.ds_section_join_us_right {
+	float: right;
+
+	background-color: white;
+	padding: 1em;
+}
+
+
+
+@media only screen and (max-width: 40em) {
+	.ds_section_join_us_right {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.ds_section_join_us_right {
+		width: 20%;
+	}
+}
+
+.ds_join_us_block {
+	padding: 2em;
+	background-color: white;
 }
