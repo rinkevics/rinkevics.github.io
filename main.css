@@ -712,12 +712,12 @@ body {
 }
 
 .ds_about_us_person_name {
-	float: left;	
+	/*float: left;	*/
 }
 
 .ds_about_us_person_description {
-	float: left;
-	clear: left;
+	/*float: left;
+	clear: left;*/
 }
 
 .ds_about_us_person_image {
@@ -765,7 +765,7 @@ body {
 
 @media only screen and (max-width: 40em) {
 	#ds_about_us_allies {
-		width: 24em;
+		width: 20em;
 	}
 }
 
@@ -776,7 +776,7 @@ body {
 }
 
 .ds_about_us_ally {
-	width: 10em;
+	width: 8em;
 	height: 5em;
 	margin: 0 1em 1em 1em;
 	float: left;
