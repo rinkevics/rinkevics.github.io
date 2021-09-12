@@ -1,0 +1,610 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Open Sans 2";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OX-hpOqc.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Open Sans 2";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OVuhpOqc.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Open Sans 2";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OXuhpOqc.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Open Sans 2";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OUehpOqc.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Open Sans 2";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans 2";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OXOhpOqc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans 2";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans 2";
+}
+
+/* common */
+@media (min-width: 640px) {
+  .ds_section {
+    width: 100%;
+  }
+}
+
+.ds_section_column {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+}
+
+.ds_button {
+  background-color: #0CBDFF;
+  color: white;
+  border: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
+.ds_button_simple {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  font-family: "Open Sans 2";
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.ds_button_accent {
+  background-color: #2AC480;
+  color: white;
+  border-color: #2AC480;
+}
+
+.ds_subtitle {
+  font-family: "Open Sans Bold";
+  color: #00AFF0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.ds_title {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.ds_row {
+  overflow: hidden;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.ds_card {
+  width: 496px;
+  margin-bottom: 40px;
+}
+.ds_card .ds_card_image {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.ds_card .ds_card_info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.ds_card .ds_card_title {
+  font-family: "Open Sans Bold";
+}
+
+.ds_card_margin {
+  margin-right: 32px;
+}
+
+.ds_big_card {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.ds_big_card .ds_big_card_image {
+  width: 512px;
+}
+.ds_big_card .ds_big_card_details {
+  width: 472px;
+  margin-left: 40px;
+}
+.ds_big_card .ds_big_card_title {
+  font: 28px "Open Sans 2";
+}
+.ds_big_card .ds_big_card_info {
+  font-size: 14px;
+  color: darkgray;
+  margin-top: 8px;
+}
+.ds_big_card .ds_big_card_description {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.ds_hidden {
+  display: none;
+}
+
+.margin_left {
+  margin-left: 68px;
+}
+
+.text_align_center {
+  text-align: center;
+}
+
+/* menu */
+.ds_menu_item {
+  font: bold 1em "Open Sans 2";
+  line-height: 1.5em;
+  margin: 1em 2.5em 1em 0;
+  float: right;
+  text-align: center;
+}
+.ds_menu_item a:link {
+  color: black;
+  text-decoration: none #00AFF0;
+}
+.ds_menu_item a:visited {
+  color: black;
+  text-decoration: none #00AFF0;
+  color: #2AC480;
+}
+.ds_menu_item a:hover, .ds_menu_item a:active {
+  color: black;
+  text-decoration: underline #00AFF0;
+  text-decoration-thickness: 0.2em;
+}
+
+@media only screen and (max-width: 640px) {
+  .ds_menu_item {
+    height: 2em;
+  }
+}
+/* main page */
+#ds_start_whoarewe {
+  margin-top: 40px;
+  height: 504px;
+  position: relative;
+}
+@media (min-width: 640px) {
+  #ds_start_whoarewe .image {
+    width: 448px;
+    height: 584px;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+}
+@media (max-width: 640px) {
+  #ds_start_whoarewe .image {
+    object-fit: fill;
+    width: 100%;
+    margin: 0 0 8px 0;
+  }
+}
+#ds_start_whoarewe .decor {
+  height: 96px;
+  width: 96px;
+  bottom: -128px;
+  right: 400px;
+  position: absolute;
+}
+#ds_start_whoarewe .text {
+  width: 512px;
+}
+#ds_start_whoarewe .text .description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+#ds_start_project {
+  background: #DEEFFD;
+  padding-top: 160px;
+  padding-bottom: 88px;
+  overflow: hidden;
+  display: block;
+}
+#ds_start_project .description {
+  width: 70%;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#ds_start_blog {
+  background: #00141C;
+  color: white;
+  padding-top: 72px;
+  padding-bottom: 88px;
+  overflow: hidden;
+  display: block;
+}
+#ds_start_blog .description {
+  width: 70%;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#ds_start_about_us {
+  overflow: hidden;
+  display: block;
+  padding-top: 72px;
+  padding-bottom: 88px;
+}
+#ds_start_about_us .title {
+  font-family: "Open Sans Bold";
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  margin-bottom: 80px;
+}
+#ds_start_about_us .values {
+  width: 296px;
+  height: 180px;
+  overflow: hidden;
+  display: block;
+}
+#ds_start_about_us .values .values_top {
+  position: relative;
+  height: 40px;
+  margin-bottom: 20px;
+}
+#ds_start_about_us .values .values_top .subtitle {
+  font-family: "Open Sans Bold";
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 80px;
+}
+#ds_start_about_us #about_us_button {
+  width: max-content;
+  margin: 40px auto 0 auto;
+}
+
+#ds_start_subscribe {
+  background-color: #2AC480;
+  padding: 50px 0 80px 0;
+}
+#ds_start_subscribe #ds_sub_section_subscribe {
+  height: 176px;
+  position: relative;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_note {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_subscribe {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_subscribe #mc_embed_signup_scroll {
+  height: 56px;
+  width: 490px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_subscribe #mc_embed_signup_scroll #mce-EMAIL {
+  height: 24px;
+  width: 322px;
+  margin: 16px 32px;
+  font-family: "Open Sans Bold";
+  font-size: 16px;
+  color: white;
+  background: transparent;
+  border: none;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_subscribe #mc_embed_signup_scroll #mce-EMAIL #mce-EMAIL:focus {
+  background-color: red;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_subscribe #mc_embed_signup_scroll #mc-subscribe {
+  width: 100px;
+  height: 100%;
+  color: white;
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid #FFFFFF;
+}
+#ds_start_subscribe #ds_sub_section_subscribe .ds_subscribe #mc_embed_signup_scroll #mc-subscribe img {
+  width: 24px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translate(50%, -50%);
+}
+#ds_start_subscribe .ds_title {
+  color: white;
+}
+#ds_start_subscribe .ds_note {
+  color: white;
+}
+
+#ds_start_join {
+  background-color: #00141C;
+  color: white;
+  padding-top: 72px;
+  padding-bottom: 88px;
+}
+#ds_start_join #ds_start_join_section {
+  overflow: hidden;
+  display: block;
+}
+#ds_start_join #ds_start_join_section .ds_left {
+  width: 150px;
+  height: 184px;
+  position: relative;
+}
+#ds_start_join #ds_start_join_section .ds_left .ds_box {
+  width: 104px;
+  height: 104px;
+  border: solid 1px white;
+  position: relative;
+}
+#ds_start_join #ds_start_join_section .ds_left .ds_box .ds_box_text {
+  width: max-content;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+#ds_start_join #ds_start_join_section .ds_left .ds_text {
+  position: absolute;
+  bottom: 0;
+}
+#ds_start_join #ds_start_join_section a:link {
+  color: white;
+  text-decoration: none #00AFF0;
+}
+#ds_start_join #ds_start_join_section a:visited {
+  color: white;
+  text-decoration: none #00AFF0;
+  color: #2AC480;
+}
+#ds_start_join #ds_start_join_section a:hover, #ds_start_join #ds_start_join_section a:active {
+  color: white;
+  text-decoration: underline #00AFF0;
+  text-decoration-thickness: 0.2em;
+}
+#ds_start_join #ds_start_join_section .ds_center {
+  width: 497px;
+  height: 184px;
+  margin-left: 108px;
+  position: relative;
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_text {
+  position: absolute;
+  top: 0;
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_buttons {
+  position: absolute;
+  bottom: 0;
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_buttons .ds_button {
+  float: left;
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_buttons .ds_subscribe {
+  height: 56px;
+  width: 293px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  color: white;
+  background: transparent;
+  float: left;
+  margin-left: 24px;
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_buttons .ds_subscribe .ds_button_outer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_buttons .ds_subscribe .ds_button_outer .ds_button_inner {
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_buttons .ds_subscribe .ds_button_outer .ds_button_inner .ds_button_text {
+  height: 20px;
+  float: left;
+}
+#ds_start_join #ds_start_join_section .ds_center .ds_buttons .ds_subscribe .ds_button_outer .ds_button_inner .ds_button_arrow {
+  float: left;
+  margin-left: 10px;
+}
+#ds_start_join #ds_start_join_section .ds_right {
+  height: 184px;
+  position: relative;
+}
+#ds_start_join #ds_start_join_section .ds_right .ds_tw {
+  position: absolute;
+  bottom: 0;
+  right: 128px;
+}
+#ds_start_join #ds_start_join_section .ds_right .ds_fb {
+  position: absolute;
+  bottom: 0;
+  right: 64px;
+}
+#ds_start_join #ds_start_join_section .ds_right .ds_group {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#ds_start_join #ds_start_join_section .ds_social_icon_margin {
+  margin-right: 24px;
+}
+
+/* Projekti */       
+.ds_project_header {
+  margin-top: 80px;
+}
+.ds_project_header .ds_description {
+  width: 70%;
+}
+.ds_project_header .ds_project_category_buttons {
+  margin-top: 40px;
+}
+.ds_project_header .ds_project_category_buttons .ds_button_simple {
+  margin-right: 16px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.ds_project_list {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+/*# sourceMappingURL=index.css.map */

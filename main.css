@@ -8,15 +8,6 @@
   }
 
 
-body {
-	margin: 0;
-	font-family: "Open Sans ";
-}
-
-.ds_hidden {
-	display: none;
-}
-
 
 /* mobile header */
 
@@ -75,72 +66,6 @@ body {
 #ds_logo img {
 	width: 13em;
 	height: 4.25em;
-}
-
-/* menu */
-.ds_menu_item {
-    font: bold 1em "Open Sans";
-    line-height: 1.5em;
-
-	margin: 1em 2.5em 1em 0;
-
-    float: right;
-    text-align: center;
-}
-
-.ds_menu_item a:link, .ds_menu_item a:visited {
-    color: black;
-    text-decoration: none #0CBDFF;
-}
-
-.ds_menu_item a:visited {
-    color: #2AC480;
-}
-
-.ds_menu_item a:hover, .ds_menu_item a:active {
-    color: black;
-    text-decoration: underline #0CBDFF;
-    text-decoration-thickness: 0.2em;
-}
-
-@media only screen and (max-width: 40em) {
-	.ds_menu_item {
-		height: 2em;
-	}
-}
-
-
-/* main page top */
-@media only screen and (max-width: 40em) {
-	#ds_start_page_image {
-		object-fit: fill;
-		width: 100%;
-		margin: 0 0 0.5em 0;
-	}
-}
-
-@media only screen and (min-width: 40em) {
-	#ds_start_page_image {
-	}
-}
-
-#ds_start_page_text {
-	position: absolute;
-	bottom: 2em;	
-	background-color: white;
-	padding: 1em;
-}
-
-@media only screen and (max-width: 40em) {
-	#ds_start_page_text {
-		left: 2em;
-	}
-}
-
-@media only screen and (min-width: 40em) {
-	#ds_start_page_text {
-		left: 7em;
-	}
 }
 
 
@@ -727,69 +652,6 @@ body {
 }
 
 /* blog */
-
-.ds_blog_image {
-	width: 50%;
-	float: left;
-}
-
-@media only screen and (max-width: 40em) {
-	.ds_blog_image {
-		display: none;
-	}
-}
-
-.ds_blog_image_mobile {
-	width: 100%;
-	float: left;
-}
-
-@media only screen and (min-width: 40em) {
-	.ds_blog_image_mobile {
-		display: none;
-	}
-}
-
-.ds_blog_box {
-	margin-bottom: 1em;
-	overflow: hidden;
-}
-
-.ds_blog_details {
-	overflow: hidden;
-}
-
-@media only screen and (min-width: 40em) {
-	.ds_blog_details {
-		width: 45%;
-		float: right;
-	}	
-}
-
-.ds_blog_title {
-	margin-top: 0;
-	float: left;
-	clear: both;
-	margin-bottom: 0.5em;
-}	
-
-.ds_blog_date {
-	float: left;
-	clear: both;
-	margin-bottom: 0.5em;
-}
-
-.ds_blog_description {
-	float: left;
-	clear: both;
-	margin-bottom: 0.5em;
-}
-
-.ds_blog_open {
-	float: left;
-	clear: both;
-}
-
 
 
 
