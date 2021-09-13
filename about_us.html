@@ -6,206 +6,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="/favicon.png?fit=32%2C32" sizes="32x32"/>
-
-    <link rel="stylesheet" href="main.css" />
+    
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="index.css" />
 </head>
 <body>
-<div id="ds_wrapper">
-    <div id="ds_scroller">
-        <div id="ds_page">
-            <div id="ds_header">
-                <div id="ds_logo">
-                    <a href="index.html">
-                        <img src="a.jpg" />
-                    </a>
-                </div>
-                <div class="ds_menu_item">
-                    <a href="projects.html">Projekti</a>
-                </div>
-                <div class="ds_menu_item">
-                    <a href="join_us.html">Iesaisties</a>
-                </div>
-                <div class="ds_menu_item">
-                    <a href="blog.html">Blogs</a>
-                </div>
-                <div class="ds_menu_item">
-                    <a href="about_us.html">Par mums</a>
-                </div>
-                <div class="ds_menu_item">
-                    <a href="contacts.html">Kontakti</a>
-                </div>
-            </div>
-            
-            <div class="ds_section_header">
-                <h1>Par mums</h1>
-            </div>
 
-            <div class="ds_section">
-                <div id="ds_about_us_block">
-                    <img id="ds_about_us_image" src="a.jpg" />
-                    <div id="ds_about_us_text"> 
-                        <h2>Daļa no School of Data</h2>
-                        Datu skola ir daļa no School of Data – starptautiska tīkla, 
-                        kas radīts lai veicinātu datu pratību vispasaules pilsoniskajā sabiedrībā. 
-                        Būdami tīkla biedri mēs strādājam, lai nevalstiskās organizācijas, žurnālisti, 
-                        publiskā sektora institūcijas un pilsoņi Latvijā gūst prasmes strādāt ar publiskajiem un atvērtajiem datiem, 
-                        tā piedaloties labklājīgākas, taisnīgākas un ilgspējīgākas sabiedrības veidošanā.
-                        Starptautiskais tīkls īsteno šo mērķi Eiropā, Latīņamerikā, Āzijā un Āfrikā. 
-                        Vairāk par School of Data starptautisko tīklu var uzzināt schoolofdata.org.
+    <div class="ds_section ds_section_column">
+        <div id="ds_header">
+            <div id="ds_logo">
+                <a href="index.html">
+                    <img src="logo.svg" />
+                </a>
+            </div>
+            <button class="ds_button float_right" onclick="location.href='join_us.html'" >
+                IESAISTIES
+            </button>
+            <div class="ds_menu_item">
+                <a href="contacts.html">Kontakti</a>
+            </div>
+            <div class="ds_menu_item">
+                <a href="about_us.html">Par mums</a>
+            </div>
+            <div class="ds_menu_item">
+                <a href="blog.html">Blogs</a>
+            </div>
+            <div class="ds_menu_item">
+                <a href="projects.html">Projekti</a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="ds_about_us_header ds_section ds_section_column">
+        <div class="ds_title">Par mums</div>
+        <div class="ds_subtitle_2">Daļa no School of Data</div>
+        <div class="ds_about_us_description">
+            Datu skola ir daļa no School of Data – starptautiska tīkla,
+            kas radīts lai veicinātu datu pratību vispasaules pilsoniskajā sabiedrībā.
+            Būdami tīkla biedri mēs strādājam, 
+            lai nevalstiskās organizācijas, žurnālisti, 
+            publiskā sektora institūcijas un pilsoņi Latvijā gūst prasmes strādāt ar publiskajiem un atvērtajiem datiem, 
+            tā piedaloties labklājīgākas, taisnīgākas un ilgspējīgākas sabiedrības veidošanā.
+            Starptautiskais tīkls īsteno šo mērķi Eiropā, Latīņamerikā, Āzijā un Āfrikā. 
+            Vairāk par School of Data starptautisko tīklu var uzzināt schoolofdata.org.
+        </div>
+        <img class="ds_about_us_big_image" src="a.jpg" />
+    </div>
+
+    <div class="ds_about_us_team ds_section ds_section_column">
+        <div class="ds_about_us_team_header">
+            <div class="ds_subtitle">
+                KAS MĒS ESAM
+            </div>
+            <div class="ds_title">Mūsu komanda</div>
+            <div class="ds_description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Condimentum id massa laoreet ac consectetur vitae. 
+                Amet nisi convallis eu at diam scelerisque in.
+            </div>
+        </div>
+        <div class="ds_about_us_members clearfix">
+            <div class="ds_about_us_member clearfix">
+                <img class="ds_about_us_image float_left ds_about_us_margin" src="a.jpg" />
+                <div class="ds_about_us_details float_left">
+                    <div class="ds_subtitle_2">Nika Aleksejeva</div>
+                    <div class="ds_about_us_speciality">Datu Skolas vadītāja Latvijā</div>
+                    <div class="ds_about_us_description">
+                        Nika ir datu vizualizācijas un datu stāstītprasmes trenere. 
+                        Trīs gadu pieredze pasaulē pazīstamā datu vizualizācijas rīka 
+                        Infogram komandā, rīkojot apmācības, 
+                        vebinārus un radot izglītojošus rakstus par datu vizualizāciju 
+                        Nikai 2016. gadā ļāva kļūt par starptautiskā datu pratības tīkla
+                        School of Data pārstāvi Eiropā.
+                        Vēlāk Nika radīja tīkla pārstāvniecību arī Latvijā. 
+                        Nikas pamatdarbs šobrīd ir saistīts ar dezinformācijas pētīšanu 
+                        digitālajā vidē. Nika ir arī Baltijas Mediju izcilības centra 
+                        trenere un ir bijusi jauno žurnālistu biedrības FEJS Latvija 
+                        valdes priekšsēdētāja.
+                    </div>
+                    <div class="ds_about_us_social float_left">
+                        <img class="ds_ln" src="media/linkedin.svg">
+                        <img class="ds_mail" src="media/mail.svg">
                     </div>
                 </div>
             </div>
-
-            <div class="ds_about_us_section_people">
-                <h2 class="ds_about_us_header">Mūsu komanda</h2>
-                <div class="ds_adout_us_team">
-                    Datu skolas pamata komandu veido tās dibinātāji, 
-                    kas organizācijas labā strādā brīvprātīgi, 
-                    nesaņemot par to atalgojumu.
-                </div>
-                <div class="ds_about_us_people">
-                    <div class="ds_about_us_person ds_float_left">
-                        <img class="ds_about_us_person_image" src="a.jpg" />
-                        <div class="ds_about_us_person_name">Nika Aleksejeva</div>
-                        <div class="ds_about_us_person_description">Datu Skolas vadītāja Latvijā</div>
-                        <div class="ds_about_us_person_text">
-                            Nika ir datu vizualizācijas un datu stāstītprasmes trenere.
-                            Trīs gadu pieredze pasaulē pazīstamā datu vizualizācijas rīka Infogram komandā, 
-                            rīkojot apmācības, vebinārus un radot izglītojošus rakstus par datu vizualizāciju 
-                            Nikai 2016. gadā ļāva kļūt par starptautiskā datu pratības tīkla School of Data pārstāvi Eiropā. 
-                            Vēlāk Nika radīja tīkla pārstāvniecību arī Latvijā. Nikas pamatdarbs šobrīd ir saistīts ar dezinformācijas pētīšanu digitālajā vidē.
-                            Nika ir arī Baltijas Mediju izcilības centra trenere un ir bijusi jauno žurnālistu biedrības FEJS Latvija valdes priekšsēdētāja.
-                        </div>
-                        <div class="ds_about_us_person_email">nika@datuskola.lv</div>
-                    </div>  
-                    <div class="ds_about_us_person ds_float_right">
-                        <img class="ds_about_us_person_image" src="a.jpg" />
-                        <div class="ds_about_us_person_name">Ruta Beināre</div>
-                        <div class="ds_about_us_person_description">Datu Skolas vadītājas vietniece</div>
-                        <div class="ds_about_us_person_text">
-                            Ruta ir socioloģe un atropoloģe, 
-                            kas savas zināšanas pielieto ikdienā strādājot ar nodarbinātības datiem Centrālajā statistikas pārvaldē. 
-                            Ruta aktīvi strādā pie lielo organizācijas projektu koordinēšanas. 
-                            Viņa ir pamatautors tādiem projektiem kā “Izpeldi no Burbuļa” 
-                            (fiziska datu vizualizācijas instalācija sarunu festivālā Lampa 2018) un virtuālai piedzīvojumu spēlei “Noziegums tīklā”.
-                            Spēle izklaidējošā veidā veicināja datu pratību, mediju pratību un kritisko domāšanu.
-                        </div>
-                        <div class="ds_about_us_person_email">ruta@datuskola.lv</div>
-                    </div>  
-                    <div class="ds_about_us_person ds_float_left">
-                        <img class="ds_about_us_person_image" src="a.jpg" />
-                        <div class="ds_about_us_person_name">Andis Cīrulis</div>
-                        <div class="ds_about_us_person_description">Datu Skolas digitālo risinājumu konsultants</div>
-                        <div class="ds_about_us_person_text">
-                            Andis ir programmētājs un digitālo pakalpojumu aģentūras White Digital līdzibinātājs. 
-                            Anda formālā izglītība Informācijas tehnoloģiju jomā ļauj viņam sniegt apmācības programmātiskā datu apstrādē
-                            izmantojot tādas tehnoloģijas kā Python un SQL. 
-                            Tāpat Andis ieguvis MBA grādu Rīgas Biznesa skolā.
-                        </div>
-                        <div class="ds_about_us_person_email">andis.cirulis@gmail.com</div>
-                    </div>  
-                    <div class="ds_about_us_person ds_float_right">
-                        <img class="ds_about_us_person_image" src="a.jpg" />
-                        <div class="ds_about_us_person_name">Kaspars Riņķevičs</div>
-                        <div class="ds_about_us_person_description">
-                            Datu Skolas brīvprātīgais programmētājs
-                        </div>
-                        <div class="ds_about_us_person_text">
-                            Kaspars ir programmētājs, kam patīk pierādījumos balstīti stāsti. 
-                            Organizācijā Kaspars ir iesaistīts no tās pirmsākumiem. 
-                            Tajā viņš aktīvi piedalās organizācijas rīkoto apmācību, hakatonu un grupu darbu rīkošanā, 
-                            kā arī veic Datu skolai nepieciešamo digitālo risinājumu izstrādi.
-                        </div>
-                        <div class="ds_about_us_person_email">kaspars@datuskola.lv</div>
-                    </div>  
-                    <div class="ds_about_us_person ds_float_left">
-                        <img class="ds_about_us_person_image" src="a.jpg" />
-                        <div class="ds_about_us_person_name">Miķelis Zondaks</div>
-                        <div class="ds_about_us_person_description">
-                            Datu Skolas brīvprātīgais atvērto datu
-                        </div>
-                        <div class="ds_about_us_person_text">
-                            Miķelis ir ekonometrists, datu analītiķis un biznesa konsultants, 
-                            kas savu profesionālo pieredzi guva gan publiskajā gan privātajā sekotrā strādājot starptautiskās konsultāciju firmās Latvijā. 
-                            Datu skolā Miķelis visbiežāk veic konsultācijas par atvērto datu politiku un izmantojumu privātajā sektorā ar mērķi vairot valsts labklājību.
-                        </div>
-                        <div class="ds_about_us_person_email"></div>
-                    </div>  
-                    <div class="ds_about_us_together ds_float_right">
-                        <img class="ds_about_us_together_image" src="a.jpg" />
+            <div class="ds_about_us_member clearfix">
+                <div class="ds_about_us_details float_left ds_about_us_margin">
+                    <div class="ds_subtitle_2">Ruta Beināre</div>
+                    <div class="ds_about_us_speciality">Datu Skolas vadītājas viesnīca</div>
+                    <div class="ds_about_us_description">
+                        Nika ir datu vizualizācijas un datu stāstītprasmes trenere. 
+                        Trīs Ruta ir socioloģe un atropoloģe, 
+                        kas savas zināšanas pielieto ikdienā strādājot ar nodarbinātības datiem Centrālajā statistikas pārvaldē. 
+                        Ruta aktīvi strādā pie lielo organizācijas projektu koordinēšanas. 
+                        Viņa ir pamatautors tādiem projektiem kā “Izpeldi no Burbuļa” 
+                        (fiziska datu vizualizācijas instalācija sarunu festivālā Lampa 2018) un 
+                        virtuālai piedzīvojumu spēlei “Noziegums tīklā”. Spēle izklaidējošā veidā veicināja datu pratību, 
+                        mediju pratību un kritisko domāšanu.
                     </div>
-                </div>    
+                    <div class="ds_about_us_social float_left">
+                        <img class="ds_ln" src="media/linkedin.svg">
+                        <img class="ds_mail" src="media/mail.svg">
+                    </div>
+                </div>
+                <img class="ds_about_us_image float_left " src="a.jpg" />
+            </div>
+        </div>
+
+        <img class="ds_about_us_big_image" src="a.jpg" />
+
+        <div class="ds_title_small">Mūsu sabiedrotie</div>
+        <div class="ds_about_us_allies ds_section ds_section_column">
+            <ddv class="clearfix">
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left " src="a.jpg" />
+                
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left ds_about_us_margin" src="a.jpg" />
+                <img class="ds_about_us_ally float_left " src="a.jpg" />
+            </ddv>
+        </div>
+    </div>
+
+
+    <div id="ds_start_join" class="ds_section">
+        <div id="ds_start_join_section" class="ds_section_column">
+            <div class="ds_left float_left">
+                <div class="ds_box">
+                    <div class="ds_box_text">
+                        <b>DATU</b><br/> SKOLA
+                    </div>
+                </div>
+                <div class="ds_text">
+                    Datu skola ir daļa no 
+                    <a href="https://schoolofdata.org/">SCHOOL OF DATA</a>
+                </div>
             </div>
 
-            <div class="ds_section">
-                <div class="ds_section_header">
-                    <h1>Mūsu sabiedrotie</h1>
-                </div>
-
-                <div id="ds_about_us_allies">
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                    <img class="ds_about_us_ally" src="a.jpg" />
-                </div>
-            </div>
-
-            <div id="ds_bottom">
-                <div id="ds_bottom_about_us">
-                    <h2>Datu skola</h2>
-                    Pierādījumā ir spēks!
-                    Datu skola ir te, lai žurnālisti, nevalstisko organizāciju aktīvisti,
+            <div class="ds_center float_left">
+                <div class="ds_text">
+                    Pierādījumā ir spēks!<br/>
+                    <br/>
+                    Datu skola ir te, lai žurnālisti, nevalstisko organizāciju aktīvisti, 
                     un citi sabiedrības locekļi iegūst spējas efektīvi strādāt ar datiem.
                 </div>
-                <div id="ds_bottom_sign_up">
-                    <input type="button" value="Iesaisties">
-                    <input type="button" value="Pieteikties jaunumiem">
-                </div>
-                <div id="ds_bottom_school_of_data">
-                    Datu skola ir daļa no<br/>
-                    SCHOOL OF DATA
-                </div>
-                <div id="ds_bottom_social">
-                    <input type="button" value="Mail">
-                    <input type="button" value="Facebook">
-                    <input type="button" value="Twitter">
-                </div>
+                <div class="ds_buttons">
+                    <button class="ds_button" onclick="location.href='join_us.html'" >
+                        IESAISTIES
+                    </button>
 
+                    <button class="ds_subscribe" onclick="location.href='join_us.html'" >
+                        <div class="ds_button_outer">
+                            <div class="ds_button_inner">
+                                <div class="ds_button_text">
+                                    PIERAKSTĪTIES JAUNUMIEM		
+                                </div>
+                                <img class="ds_button_arrow" src="media/arrow.svg" alt="submit" style="float: left;">							
+                            </div>								
+                        </div>
+                    </button>
+                </div>
             </div>
+
+            <div class="ds_right float_right">
+                <img class="ds_tw" src="media/twitter.svg" />
+                <img class="ds_fb" src="media/facebook.svg" />
+                <img class="ds_group" src="media/social.svg" />
+            </div>
+            
         </div>
     </div>
 
-
-    <div id="ds_header_mobile">
-        <div id="ds_logo">
-            <a href="index.html">
-                <img id="ds_main_page_image" src="a.jpg" />
-            </a>
-        </div>
-        <input id="ds_menu_button" type="button" value="=" onclick="toggleMenu()">
-    </div>
-
-    <div id="ds_menu_mobile" class="ds_hidden">
-        <div class="ds_menu_item">
-            <a href="projects.html">Projekti</a>
-        </div>
-        <div class="ds_menu_item">
-            <a href="join_us.html">Iesaisties</a>
-        </div>
-        <div class="ds_menu_item">
-            <a href="blog.html">Blogs</a>
-        </div>
-        <div class="ds_menu_item">
-            <a href="about_us.html">Par mums</a>
-        </div>
-        <div class="ds_menu_item">
-            <a href="contacts.html">Kontakti</a>
-        </div>
-    </div>
 </div>
 
 

@@ -527,50 +527,6 @@
 	}
 }
 
-.ds_about_us_header {
-	text-align: center;
-}
-
-.ds_adout_us_team {
-	text-align: center;
-	margin: 2em;
-}
-
-.ds_about_us_people {
-	overflow: hidden;
-}
-
-
-.ds_about_us_person {
-	background-color: lightgray;
-	padding: 1.5em;
-	overflow: hidden;
-}
-
-@media only screen and (max-width: 40em) {
-	.ds_about_us_person {
-		box-sizing: border-box;
-		width: 100%;
-		margin: 0 0 1em 0;
-	}
-}
-
-@media only screen and (min-width: 40em) {
-	.ds_about_us_person {
-		width: 23em;
-		height: 25em;
-		margin: 0 2em 3em 2em;
-	}
-}
-
-.ds_float_left {
-	float: left;
-}
-
-.ds_float_right {
-	float: right;
-}
-
 .ds_about_us_person_image {
 	width: 6em;
     height: 8em;
@@ -626,24 +582,6 @@
 	}
 }
 
-.ds_about_us_ally {
-	height: 5em;
-	margin: 0 1em 1em 1em;
-	float: left;
-}
-
-@media only screen and (max-width: 40em) {
-	.ds_about_us_ally {
-		width: 8em;
-	}
-}
-
-@media only screen and (min-width: 40em) {
-	.ds_about_us_ally {
-		width: 10em;
-	}
-}
-
 /* join us */
 
 .ds_join_us_block {
@@ -651,7 +589,7 @@
 	background-color: white;
 }
 
-/* blog */
+
 
 
 
