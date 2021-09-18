@@ -132,8 +132,12 @@ $gray_text: darkgray
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
 
 body
-    margin: 0
-    font-family: "Open Sans 2"
+  margin: 0
+  font-family: "Open Sans 2"
+  color: $color_dark
+
+a
+  color: inherit !important
 
     
 /* common */
@@ -230,7 +234,6 @@ body
   width: 100%
   
   font-family: "Open Sans Bold"
-  text-align: center
   font-style: normal
   font-weight: bold
   font-size: 40px
@@ -317,7 +320,90 @@ body
 .text_align_center
   text-align: center
 
+
+.ds_mail_black
+  background-image: url("media/mail_black.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_mail_white
+  background-image: url("media/mail_white.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_twitter_black
+  background-image: url("media/twitter_black.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_twitter_white
+  background-image: url("media/twitter_white.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_facebook_black
+  background-image: url("media/facebook_black.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_facebook_white
+  background-image: url("media/facebook_white.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_social_white
+  background-image: url("media/social_white.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_social_black
+  background-image: url("media/social_black.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_linkedin_white
+  background-image: url("media/linkedin_white.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+.ds_linkedin_black
+  background-image: url("media/linkedin_black.svg")
+  background-repeat: no-repeat
+  width: 40px
+  height: 40px
+  margin: 0
+  padding: 0
+
+  
 /* menu */
+
 .ds_menu_item
   font: bold 1em "Open Sans 2"
   line-height: 1.5em
@@ -643,17 +729,17 @@ body
       height: 184px
       position: relative
       
-      .ds_tw
+      .ds_twitter_white
         position: absolute
         bottom: 0
         right: 128px
         
-      .ds_fb
+      .ds_facebook_white
         position: absolute
         bottom: 0
         right: 64px
 
-      .ds_group
+      .ds_social_white
         position: absolute
         bottom: 0
         right: 0
@@ -735,12 +821,12 @@ body
       margin-top: 24px
       position: relative
         
-      .ds_ln
+      .ds_linkedin_black
         position: absolute
         bottom: 0
         left: 0
         
-      .ds_mail
+      .ds_mail_black
         position: absolute
         bottom: 0
         left: 56px
@@ -752,8 +838,11 @@ body
     width: 1024px
     height: 536px
 
+  .ds_about_us_allies_title
+    text-align: center
+
   .ds_about_us_allies
-    width: 1024px
+    width: 800px
     padding: 0 112px 0 112px
 
   .ds_about_us_ally
@@ -769,3 +858,61 @@ body
 
 .ds_margin_bottom
   margin-bottom: 152px
+
+/* contacts */
+
+.ds_contacts
+  height: 840px
+  margin-top: 40px
+  margin-bottom: 140px
+
+  position: relative
+  
+  .ds_contact_item:hover
+    .ds_mail_black
+      background-image: url("media/mail_green.svg")
+    .ds_twitter_black
+      background-image: url("media/twitter_green.svg")
+    .ds_facebook_black
+      background-image: url("media/facebook_green.svg")
+    .ds_social_black
+      background-image: url("media/social_green.svg")
+
+  .ds_contact_item
+    margin-top: 32px
+    position: relative
+
+    .ds_contact_text
+      font-size: 28px
+      line-height: 40px
+      
+      position: absolute
+      top: 50%
+      left: 64px
+      transform: translateY(-50%)
+
+  .ds_contact_item:hover
+    color: $color_secondary_accent
+
+
+  .ds_text
+    margin-top: 70px
+    
+    position: absolute
+    top: 0
+    left: 0
+
+    .ds_description
+      line-height: 24px
+    
+    .ds_title_small
+      margin-top: 128px
+
+  .ds_image
+    width: 448px
+    height: 584px
+
+    position: absolute
+    top: 0
+    right: 0
+
